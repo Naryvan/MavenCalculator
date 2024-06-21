@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e22b2a89-9768-493a-aa56-ba4ee4fbfc85" name="Changes" comment="Added ui">
+    <list default="true" id="e22b2a89-9768-493a-aa56-ba4ee4fbfc85" name="Changes" comment="Added and used MigLayout dependency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-ui/src/main/java/ui/CalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-ui/src/main/java/ui/CalculatorUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-core/src/main/java/CalculatorLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-core/src/main/java/CalculatorLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-math/src/main/java/math/MathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-math/src/main/java/math/MathOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +48,18 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CalculatorLogic">
+    <configuration name="CalculatorLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculatorLogic" />
+      <module name="module-core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.CalculatorUI" />
       <module name="module-ui" />
@@ -67,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorLogic" />
         <item itemvalue="Application.CalculatorUI" />
       </list>
     </recent_temporary>
@@ -89,7 +98,7 @@
       <updated>1718921933496</updated>
       <workItem from="1718921934562" duration="2373000" />
       <workItem from="1718973651286" duration="616000" />
-      <workItem from="1718974290715" duration="3461000" />
+      <workItem from="1718974290715" duration="4595000" />
     </task>
     <task id="LOCAL-00001" summary="Added ui">
       <option name="closed" value="true" />
@@ -99,14 +108,34 @@
       <option name="project" value="LOCAL" />
       <updated>1718976933739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added and used MigLayout dependency">
+      <option name="closed" value="true" />
+      <created>1718977972727</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718977972727</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ui" />
+    <MESSAGE value="Added and used MigLayout dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and used MigLayout dependency" />
   </component>
 </project>
