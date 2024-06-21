@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e22b2a89-9768-493a-aa56-ba4ee4fbfc85" name="Changes" comment="Added calculator logic with dependencies on ui and math">
-      <change afterPath="$PROJECT_DIR$/module-ui/src/main/resources/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/non-packaged-resources/background.jpg" afterDir="false" />
+    <list default="true" id="e22b2a89-9768-493a-aa56-ba4ee4fbfc85" name="Changes" comment="Added and used copy resources plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module-ui/src/main/java/ui/CalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-ui/src/main/java/ui/CalculatorUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -107,7 +105,7 @@
       <updated>1718921933496</updated>
       <workItem from="1718921934562" duration="2373000" />
       <workItem from="1718973651286" duration="616000" />
-      <workItem from="1718974290715" duration="6877000" />
+      <workItem from="1718974290715" duration="7983000" />
     </task>
     <task id="LOCAL-00001" summary="Added ui">
       <option name="closed" value="true" />
@@ -133,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718979165482</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added and used copy resources plugin">
+      <option name="closed" value="true" />
+      <created>1718981336092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718981336092</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +160,7 @@
     <MESSAGE value="Added ui" />
     <MESSAGE value="Added and used MigLayout dependency" />
     <MESSAGE value="Added calculator logic with dependencies on ui and math" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added calculator logic with dependencies on ui and math" />
+    <MESSAGE value="Added and used copy resources plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and used copy resources plugin" />
   </component>
 </project>

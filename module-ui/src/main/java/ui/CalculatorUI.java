@@ -86,8 +86,4 @@ public class CalculatorUI {
         window.setContentPane(backgroundLabel);
     }
 
-    public static void main(String[] args) {
-        CalculatorUI calculator = new CalculatorUI();
-    }
-
 }

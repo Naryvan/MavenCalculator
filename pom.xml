@@ -55,5 +55,16 @@
         </plugins>
     </build>
 
+    <profiles>
+        <profile>
+            <id>build</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>test</id>
+        </profile>
+    </profiles>
 
 </project>
