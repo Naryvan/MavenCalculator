@@ -1,2 +1,4 @@
-package math;public class MathOperations {
+package math;
+
+public class MathOperations {
 }
