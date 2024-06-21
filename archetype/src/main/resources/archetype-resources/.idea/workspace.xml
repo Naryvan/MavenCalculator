@@ -1,3 +1,6 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
@@ -5,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e22b2a89-9768-493a-aa56-ba4ee4fbfc85" name="Changes" comment="Added build profile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/.idea/workspace.xml" beforeDir="false" afterPath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="${symbol_dollar}PROJECT_DIR${symbol_dollar}" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -37,7 +40,7 @@
     "Application.CalculatorUI.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/studying/Нова папка/MavenCalculator/module-ui/src/main/resources",
+    "last_opened_file_path": "E:/studying/Нова папка/${artifactId}/module-ui/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,10 +55,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\studying\Нова папка\MavenCalculator\module-ui\src\main\resources" />
-      <recent name="E:\studying\Нова папка\MavenCalculator\module-core\src\main\resources" />
-      <recent name="E:\studying\Нова папка\MavenCalculator\src\non-packaged-resources" />
-      <recent name="E:\studying\Нова папка\MavenCalculator\src\main\resources" />
+      <recent name="E:${symbol_escape}studying${symbol_escape}Нова папка${symbol_escape}${artifactId}${symbol_escape}module-ui${symbol_escape}src${symbol_escape}main${symbol_escape}resources" />
+      <recent name="E:${symbol_escape}studying${symbol_escape}Нова папка${symbol_escape}${artifactId}${symbol_escape}module-core${symbol_escape}src${symbol_escape}main${symbol_escape}resources" />
+      <recent name="E:${symbol_escape}studying${symbol_escape}Нова папка${symbol_escape}${artifactId}${symbol_escape}src${symbol_escape}non-packaged-resources" />
+      <recent name="E:${symbol_escape}studying${symbol_escape}Нова папка${symbol_escape}${artifactId}${symbol_escape}src${symbol_escape}main${symbol_escape}resources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CalculatorLogic">
@@ -104,7 +107,7 @@
       <updated>1718921933496</updated>
       <workItem from="1718921934562" duration="2373000" />
       <workItem from="1718973651286" duration="616000" />
-      <workItem from="1718974290715" duration="11113000" />
+      <workItem from="1718974290715" duration="9590000" />
     </task>
     <task id="LOCAL-00001" summary="Added ui">
       <option name="closed" value="true" />
