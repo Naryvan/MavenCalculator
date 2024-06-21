@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e22b2a89-9768-493a-aa56-ba4ee4fbfc85" name="Changes" comment="">
+    <list default="true" id="e22b2a89-9768-493a-aa56-ba4ee4fbfc85" name="Changes" comment="Added ui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-core/src/main/java/CalculatorLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-core/src/main/java/CalculatorLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-math/src/main/java/math/MathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-math/src/main/java/math/MathOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module-ui/src/main/java/ui/CalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-ui/src/main/java/ui/CalculatorUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -49,6 +47,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,11 +89,24 @@
       <updated>1718921933496</updated>
       <workItem from="1718921934562" duration="2373000" />
       <workItem from="1718973651286" duration="616000" />
-      <workItem from="1718974290715" duration="2345000" />
+      <workItem from="1718974290715" duration="3461000" />
     </task>
+    <task id="LOCAL-00001" summary="Added ui">
+      <option name="closed" value="true" />
+      <created>1718976933739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718976933739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ui" />
   </component>
 </project>

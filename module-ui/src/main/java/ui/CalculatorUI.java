@@ -1,6 +1,10 @@
 package ui;
 
+import net.miginfocom.swing.MigLayout;
+
 import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import javax.swing.text.NumberFormatter;
 import java.awt.*;
 import java.text.NumberFormat;
@@ -21,6 +25,7 @@ public class CalculatorUI {
         window.setSize(400,100);
         window.setLocationRelativeTo(null);
         panel = new JPanel();
+        panel.setLayout(new MigLayout("", "[grow]", "[grow]"));
 
         NumberFormatter formatter = new NumberFormatter(NumberFormat.getInstance());
         formatter.setValueClass(Integer.class);
@@ -41,6 +46,23 @@ public class CalculatorUI {
         panel.add(result);
         window.add(panel);
         window.setVisible(true);
+
+        firstNumber.getDocument().addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+
+            }
+
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+
+            }
+        });
     }
 
     public static void main(String[] args) {
