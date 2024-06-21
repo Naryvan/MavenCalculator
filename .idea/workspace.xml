@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e22b2a89-9768-493a-aa56-ba4ee4fbfc85" name="Changes" comment="Added and used MigLayout dependency">
+    <list default="true" id="e22b2a89-9768-493a-aa56-ba4ee4fbfc85" name="Changes" comment="Added calculator logic with dependencies on ui and math">
+      <change afterPath="$PROJECT_DIR$/module-ui/src/main/resources/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/non-packaged-resources/background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-core/src/main/java/CalculatorLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-core/src/main/java/CalculatorLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-math/src/main/java/math/MathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-math/src/main/java/math/MathOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-ui/src/main/java/ui/CalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-ui/src/main/java/ui/CalculatorUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +37,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CalculatorLogic.executor": "Run",
     "Application.CalculatorUI.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/studying/Нова папка/MatePuzzle",
+    "last_opened_file_path": "E:/studying/Нова папка/MavenCalculator/module-ui/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +54,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\studying\Нова папка\MavenCalculator\module-ui\src\main\resources" />
+      <recent name="E:\studying\Нова папка\MavenCalculator\src\non-packaged-resources" />
+      <recent name="E:\studying\Нова папка\MavenCalculator\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.CalculatorLogic">
     <configuration name="CalculatorLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculatorLogic" />
@@ -98,7 +107,7 @@
       <updated>1718921933496</updated>
       <workItem from="1718921934562" duration="2373000" />
       <workItem from="1718973651286" duration="616000" />
-      <workItem from="1718974290715" duration="4595000" />
+      <workItem from="1718974290715" duration="6877000" />
     </task>
     <task id="LOCAL-00001" summary="Added ui">
       <option name="closed" value="true" />
@@ -116,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718977972727</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added calculator logic with dependencies on ui and math">
+      <option name="closed" value="true" />
+      <created>1718979165482</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718979165482</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added ui" />
     <MESSAGE value="Added and used MigLayout dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added and used MigLayout dependency" />
+    <MESSAGE value="Added calculator logic with dependencies on ui and math" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added calculator logic with dependencies on ui and math" />
   </component>
 </project>
